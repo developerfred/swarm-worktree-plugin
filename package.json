@@ -1,0 +1,20 @@
+{
+  "name": "swarm-worktree-plugin",
+  "version": "1.0.0",
+  "description": "Git worktree isolation for OpenCode swarm multi-agent workflows. Enables parallel agents to work on separate branches without interference.",
+  "author": "VIP Telegram System",
+  "opencode": {
+    "version": ">=1.0.0"
+  },
+  "plugins": {
+    "tools": [
+      "swarm_worktree_create",
+      "swarm_worktree_merge",
+      "swarm_worktree_cleanup",
+      "swarm_worktree_list"
+    ],
+    "skills": ["swarm-worktree"]
+  },
+  "keywords": ["swarm", "worktree", "multi-agent", "git", "isolation"],
+  "platform": "all"
+}
